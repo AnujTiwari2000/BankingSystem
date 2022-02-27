@@ -1,0 +1,184 @@
+
+.anujfooter {
+
+   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px 16px;
+    background-color: #5cb85c;
+    color: white;
+    border-bottom: 1px solid black;
+  }
+  .anujfooter button:hover{
+    box-shadow: 3px 2px 1px #0a5855;
+    font-weight: bold;
+
+  
+  }
+  .anujfooter button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: rgb(71, 204, 206);
+    border-radius: 30px;
+    padding: 12px;
+
+  }
+  .foot {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(87 208 170);
+}
+
+.social-media {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.social-media ul {
+    margin: 20px;
+    list-style: none;
+    display: flex;
+}
+
+.social-media ul li a {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 40px;
+
+}
+
+.quick-links {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    height: 20px;
+    padding: 6px 0px;
+
+}
+
+.quick-links ul {
+
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+
+.quick-items a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px;
+}
+
+.outer-footer {
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(70 82 78);
+    font-size: 20px;
+
+}
+.table-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#countrytable{
+    font-family: 'Uchen', serif;
+    border-collapse: collapse;
+    margin: 30px 0px;
+    font-size: 1.2em;   
+    min-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: -5px 5px 2px #050505;
+
+}
+.countrytablehead {
+    background-color: rgb(23, 219, 128);
+    font-family: 'Bona Nova', serif;
+    text-align: center;
+    font-size: 18px;
+
+}
+ .tablecontent tr:hover {
+    font-weight: bold;
+  
+
+}
+
+#logo {
+    margin-top: 26px;
+    margin-left: 20px;
+    width: 976px;
+    height: 95px;
+    display: flex;
+}
+
+#logo img {
+    
+    padding: 0px 0px;
+    border-radius: 12px;
+    filter: drop-shadow(6px 5px 1px #222);
+}
+#logo h1{
+    margin-left: 64px;
+    font-size: 3pc;
+    margin-top: 13px;
+    
+
+}
+#logo h1:hover{
+    -webkit-transform: rotateZ(-360deg);
+    -ms-transform: rotateZ(-360deg);
+    transform: rotateZ(-360deg);
+    color: rgb(241, 105, 14);
+    transition:all 1.5s ease;
+    cursor:pointer;
+
+
+}
+#aboutbtn{
+   
+    top: 0; 
+    margin-left: 127%;
+
+    text-decoration: none;
+    list-style-type: none;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;  
+    width: 117px;
+    height: 50px;
+    text-align: center;
+    padding-top: 12px;
+
+}
+#aboutbtn:hover{
+    cursor: pointer;
+    color: white;
+background-color: #37e0d8;
+background-image: linear-gradient(315deg, #41ddd5 0%, #8cd0f0 74%);
+text-decoration: none;
+transition:all 1.5s ease;
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1)
+
+}

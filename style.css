@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Nanum+Myeongjo&family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Nanum+Myeongjo&family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Nanum+Myeongjo&family=Uchen&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(180deg, rgb(249, 249, 250), rgb(247, 247, 240),rgb(247, 250, 252));
+    
+}
+   
+ .navbar-content ul {
+    
+        display: flex;
+        padding: 10px 10px;
+        padding: 10px 10px;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .navbar-content ul li {
+       
+        padding: 0px 44px;
+        list-style: none;
+        font-size: 19px;
+        
+    }
+
+    .navbar-content ul li a {
+       
+        color: black;
+        border: 1px solid black;
+        text-decoration: none;
+        background-color: rgb(15, 236, 240);
+        border-radius: 30px;
+        padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif; 
+    }
+    .navbar-content ul li button{
+        font-family:'Times New Roman', Times, serif;
+        color: black;
+        border: 1px solid black;
+        text-decoration: none;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid black;
+       padding: 15px;
+       border-radius: 10px;
+       margin-top: 10px;
+       font-size: large;
+       font-family:Arial, Helvetica, sans-serif; 
+    }
+
+   
+    .navbar-content ul li button:hover{
+      cursor: pointer;
+      color: rgb(5, 3, 3);
+  background-color: #db891e;
+  background-image: linear-gradient(315deg, #f1852c 0%, #ecc891 74%);
+  text-decoration: none;
+  transition:all 0.5s ease;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1)
+
+
+    }
+
+    body {
+        
+        /* background-image: url(bg2.jpg) ; */
+        background-color: rgb(199 163 163);
+    }
+
+    .table-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .table-content {
+        font-family: 'Uchen', serif;
+        border-collapse: collapse;
+        margin: 30px 0px;
+        font-size: 1.2em;
+        min-width: 800px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: -5px 5px 2px #050505;
+    }
+
+    .table-content thead tr {
+        font-family: 'Bona Nova', serif;
+        background-color: rgb(253, 180, 85);
+        text-align: left;
+
+    }
+
+    .table-content th,
+    td {
+        padding: 15px 12px;
+    }
+
+    .table-content tbody tr:hover {
+        font-weight: bold;
+      
+
+    }
+
+    .table-content tbody tr {
+        border-bottom: 1px solid rgb(0, 0, 0);
+    }
+
+    .table-content tbody tr:nth-of-type(even) {
+        background-color: rgb(230, 217, 205);
+    }
+
+    .table-content tbody tr:nth-of-type(odd) {
+        background-color: rgb(246, 248, 248);
+    }
+
+    .table-content tbody tr {
+        border-bottom: rgb(17, 250, 219);
+    }
+    
+        .logo1 {
+          font-family: 'Bona Nova', serif;
+          display: flex;
+          position: relative;
+          padding: 10px 22px;
+          margin-left: 6px;
+          font-size: 3pc;
+          margin-top: -7px
+        }
+        .logo1:hover{
+          -webkit-transform: rotateZ(-360deg);
+          -ms-transform: rotateZ(-360deg);
+          transform: rotateZ(-360deg);
+          color: rgb(241, 105, 14);
+          transition:all 1.5s ease;
+          cursor:pointer;
+      
+      
+      }
+      
+
+    
+
+    #logo {
+        margin: auto;
+        width: 976px;
+        height: 51px;
+        display: flex;
+    }
+
+    #logo img {
+      margin-top: -17px;
+      margin-left: -99px;
+      width: 95px;
+      height: 78px;
+      display: flex;
+      padding: 0px 0px;
+      border-radius: 12px;
+      filter: drop-shadow(6px 5px 1px #222);
+  }
+
+    .foot {
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(87 208 170);
+    }
+
+    .social-media {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .social-media ul {
+        margin: 20px;
+        list-style: none;
+        display: flex;
+    }
+
+    .social-media ul li a {
+        cursor: pointer;
+        padding: 10px 20px;
+        font-size: 40px;
+
+    }
+
+    .quick-links {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        height: 20px;
+        padding: 6px 0px;
+
+    }
+
+    .quick-links ul {
+
+        list-style: none;
+        display: flex;
+        font-size: 20px;
+    }
+
+    .quick-items a {
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+        padding: 10px 20px;
+    }
+
+    .outer-footer {
+        height: 40px;
+        color: white;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: rgb(70 82 78);
+        font-size: 20px;
+
+    }
+    /* The Modal (background) */
+.modal {
+   
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 220px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+    display: flex;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    /* border: 2px solid rgb(8, 8, 8); */
+    width: 500px;
+    height: 370px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    font-family: 'Uchen', serif;
+    padding: 2px 16px;
+    background-color: rgb(41, 39, 39);
+    color: white;
+  }
+  
+  .modal-body {   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 7px 16px;
+    height: 100%;
+}
+.modal-body form{   
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+  
+  .modal-footer {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px 16px;
+    background-color: #5cb85c;
+    color: white;
+    border-bottom: 1px solid black;
+  }
+  .modal-footer button:hover{
+    box-shadow: 3px 2px 1px #0a5855;
+    font-weight: bold;
+
+  
+  }
+  .modal-footer button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: rgb(71, 204, 206);
+    border-radius: 30px;
+    padding: 12px;
+
+  }
+  .modal-body form p{
+    font-family: 'Uchen', serif;
+      text-align: left;
+      width: 100%;
+      font-weight: bold;
+      font-size: 17px;
+  }
+  #Sendername{
+      height: 20px;
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid grey;
+  }
+  #enterName{
+      height: 20px;
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid grey;
+  }
+  #enterAmount{
+      height: 20px;
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid grey;
+  }
+
+  /* midal history  */
+  .anujmodal {
+   
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 220px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /*Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .anujcontent {
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+    display: flex;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    /* border: 2px solid rgb(8, 8, 8); */
+    width: 500px;
+    height: 370px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .anujclose {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .anujclose:hover,
+  .anujclose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .anujheader{
+    font-family: 'Bona Nova', serif;
+    padding: 2px 16px;
+    background-color: rgb(41, 39, 39);
+    color: white;
+  }
+  
+  .anujbody {   
+    /* font-family: 'Bona Nova', serif; */
+    font-family: 'Nanum Myeongjo', serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 7px 16px;
+    height: 100%;
+}
+   .anujfooter {
+   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px 16px;
+    background-color: #5cb85c;
+    color: white;
+    border-bottom: 1px solid black;
+  }
+  .anujfooter button:hover{
+    box-shadow: 3px 2px 1px #0a5855;
+    font-weight: bold;
+
+  
+  }
+  .anujfooter button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: rgb(71, 204, 206);
+    border-radius: 30px;
+    padding: 12px;
+background:url()
+  }
+  
+  

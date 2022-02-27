@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANSACTION</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- this is header and navigation bar -->
+    <header class="navbar-box">
+        <div class="navbar-content">
+
+            <ul>
+                <div id="logo">
+                    <a href="./home.html">
+                        <img alt="home" src="abc.png">
+                    </a>
+                   
+                    <span class="logo1">TSF BANK</span>
+                </div>
+               
+                <li><button id="myBtn">STATEMENT</button></li>
+                <li><button id="open">TRANSACTION</button></li>
+
+
+
+            </ul>
+
+
+        </div>
+    </header>
+    <!-- this is modal  -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>TRANSACTION WINDOW</h2>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <p>Sender's name</p>
+                    <input id="Sendername" type="text" name="" placeholder="enter sender name">
+                    <p>Reciver's name</p>
+                    <input id="enterName" type="text" name="" placeholder="enter Reciver name">
+                    <p>enter Amount</p>
+                    <input id="enterAmount" type="number" name="" placeholder="enter the Amount">
+
+                </form>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" onclick="sendMoney()" class="btn btn-success" data-dismiss="modal">Send
+                    Money</button>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- end of modal -->
+    <!-- modal history -->
+    <!-- this is modal  -->
+    <div id="anujmodal" class="anujmodal">
+
+        <!-- Modal content -->
+        <div class="anujcontent">
+            <div class="anujheader">
+                <span class="anujclose">&times;</span>
+                <h2>STATEMENT</h2>
+            </div>
+            <div class="anujbody">
+                <ol id="transaction-history-body">
+
+                </ol>
+            </div>
+               
+            </div>
+
+           
+        </div>
+        </div>
+
+
+        
+          
+        <!-- cutomer table  -->
+        <div class="table-box">
+
+            <table class="table-content">
+
+                <thead>
+                    <tr>
+                        <th>SNo</th>
+                        <th>Customer Name</th>
+                        <th>Customer Id</th>
+                        <th>Bank Balance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Shweta Singh</td>
+                        <td>Shweta@gmail.com</td>
+                        <td id="ShwetaBankBalance">40000</td>
+
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Anuj Tiwari</td>
+                        <td>Anuj@gmail.com</td>
+                        <td id="AnujBankBalance">450000</td>
+
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>karan singh</td>
+                        <td>karan@gmail.com</td>
+                        <td id="karanBankBalance">670000</td>
+
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Amit Kumar Sharma</td>
+                        <td>Amit@gmail.com</td>
+                        <td id="AmitBankBalance">700000</td>
+
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Rohan Singh</td>
+                        <td>Rohan@gmail.com</td>
+                        <td id="RohanBankBalance">500000</td>
+
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Kavya Kishore</td>
+                        <td>Kavya@gmail.com</td>
+                        <td id="KavyaBankBalance">100000</td>
+
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Priyanka Sharma</td>
+                        <td>Priyanka@gmail.com</td>
+                        <td id="PriyankaBankBalance">89000</td>
+
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Sourabh Singh</td>
+                        <td>Sourabh@gmail.com</td>
+                        <td id="SourabhBankBalance">89000</td>
+
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Ankita Dubey</td>
+                        <td>Ankita@gmail.com</td>
+                        <td id="AnkitaBankBalance">89000</td>
+
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Rahul Sikarwar</td>
+                        <td>Rahul@gmail.com</td>
+                        <td id="RahulBankBalance">89000</td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- this is <footer> -->
+        <footer class="foot">
+
+            <div class="social-media">
+                <ul>
+
+                    <li class="social-items"><a href="https://www.instagram.com/_sher_shah_/"><img
+                        src="https://img.icons8.com/material-outlined/24/000000/instagram-new--v1.png" /></i></a>
+                    </li>
+                    <li class="social-items"><a href="https://www.linkedin.com/in/anuj-tiwari-8423b2162/"><img
+                                src="https://img.icons8.com/metro/26/000000/linkedin.png" /></i></a></li>
+                    <li class="social-items"><a href="https://github.com/AnujTiwari2000"><img
+                                src="https://img.icons8.com/material-outlined/24/000000/github.png" /></i></a></li>
+
+                </ul>
+            </div>
+            <div class="quick-links">
+                <ul>
+                    <li class="quick-items"><a href="./index.html">HOME</a></li>
+                    <li class="quick-items"><a href="https://www.linkedin.com/in/anuj-tiwari-8423b2162/">CONTACT US</a></li>
+                    <li class="quick-items"><a href="./covid.html">SERVICES</a></li>
+                </ul>
+            </div>
+
+            <div class="outer-footer">
+               &copy; all right reserved.
+            </div>
+
+
+        </footer>
+        <script src="transaction.js"></script>
+</body>
+
+</html>
